@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Noticias de última hora nacionales e internacionales en tiempo real. Infórmese sobre sucesos, farándula, deportes, política y mucho más.">
-    <meta name="author" content="La Teja - Grupo Nación">
-    <title>Noticias de Costa Rica | La Teja</title>
+    <meta name="description" content="A travel and lifestyle blog featuring articles on vacation destinations, health tips, gaming, and more.">
+    <meta name="author" content="Blog">
+    <title>Travel & Lifestyle Blog</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,446 +14,240 @@
 </head>
 <body>
 
-    <header id="site-header">
-        <div class="header-bar">
-            <div class="container header-inner">
-                <div class="header-left">
-                    <button type="button" class="btn-icon btn-search" id="btn-search" aria-label="Buscar">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                    </button>
-                    <button type="button" class="btn-secciones" id="btn-secciones">
-                        Secciones
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
-                    </button>
-                </div>
+    <section class="hero-cards" id="hero-cards" aria-label="Featured articles">
+        <div class="container">
+            <div class="hero-cards-grid">
 
-                <div class="header-center">
-                    <a href="index.html" id="logo-home" class="logo-link">
-                        <img src="img/logo-web.svg" alt="Logo de La Teja - Periódico digital de Costa Rica" class="logo-img" id="site-logo">
+                <article class="hero-card" id="hero-card-1">
+                    <a href="#">
+                        <img src="img/imagen1.jpg" alt="Beautiful travel destination with scenic views" class="hero-card-img" loading="eager">
+                        <div class="hero-card-overlay">
+                            <span class="hero-card-tag tag-lifestyle">LIFESTYLE</span>
+                            <h2 class="hero-card-title">The Most Popular Places to Visit in the World</h2>
+                            <span class="hero-card-author">Top Places</span>
+                        </div>
                     </a>
-                </div>
+                </article>
 
-                <div class="header-right">
-                    <a href="#" class="header-text-link" id="link-lo-mas-leido">Lo más leído</a>
-                    <a href="#" class="header-text-link" id="link-ultimas-noticias">Últimas noticias</a>
-                    <a href="#" class="btn-ingresar" id="btn-ingresar">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm0 2c-3.33 0-10 1.67-10 5v2h20v-2c0-3.33-6.67-5-10-5z"/></svg>
-                        Ingresar
+                <article class="hero-card" id="hero-card-2">
+                    <a href="#">
+                        <img src="img/imagen1.jpg" alt="Person exercising outdoors for better productivity" class="hero-card-img" loading="eager">
+                        <div class="hero-card-overlay">
+                            <span class="hero-card-tag tag-health">HEALTH</span>
+                            <h2 class="hero-card-title">Does Exercise Help with your Productivity</h2>
+                            <span class="hero-card-author">Health Chat</span>
+                        </div>
                     </a>
-                </div>
+                </article>
+
+                <article class="hero-card" id="hero-card-3">
+                    <a href="#">
+                        <img src="img/imagen1.jpg" alt="Gaming controller representing video game culture" class="hero-card-img" loading="eager">
+                        <div class="hero-card-overlay">
+                            <span class="hero-card-tag tag-gaming">GAMING</span>
+                            <h2 class="hero-card-title">Can Playing Video Games Help Reduce Stress?</h2>
+                            <span class="hero-card-author">Game Play</span>
+                        </div>
+                    </a>
+                </article>
+
             </div>
         </div>
-        <div class="header-orange-line"></div>
-    </header>
-
-    <div class="date-bar" id="date-bar">
-        <div class="container date-bar-inner">
-            <span class="date-text">abril 15, 2026</span>
-            <a href="#" class="btn-edicion" id="btn-edicion-impresa">Edición Impresa</a>
-        </div>
-    </div>
+    </section>
 
     <main id="main-content">
         <div class="container main-layout">
 
             <div class="content-column">
 
-                <section class="hero-section" id="hero-section" aria-label="Noticia principal">
-                    <article class="hero-article" id="hero-article">
-                        <a href="#" class="hero-link">
-                            <img src="img/imagen1.jpg" alt="Imagen de la noticia principal sobre la casa del altar narco en Costa Rica" class="hero-image" id="hero-image">
+                <section class="featured-article" id="featured-article" aria-label="Featured article">
+                    <article>
+                        <a href="#" class="featured-article-link">
+                            <img src="img/imagen1.jpg" alt="Beautiful mountain lake vacation destination" class="featured-article-img" id="featured-img">
                         </a>
-                        <div class="hero-body">
-                            <span class="cat-label" id="cat-hero">Sucesos</span>
-                            <h1 id="hero-title">
-                                <a href="#">La historia detrás de la casa del altar narco: así fue cómo Los Maruja se adueñaron de ella</a>
-                            </h1>
-                            <p class="hero-excerpt">Violenta muerte abrió paso al control de la banda</p>
+                        <div class="featured-article-body">
+                            <span class="article-category" id="cat-travel">TRAVEL</span>
+                            <h1 id="featured-title">Where to Visit on Your Next Vacation</h1>
+                            <p class="article-meta">Written by <strong>Jane Doe</strong> on December 02, 2019</p>
+                            <p class="article-excerpt">
+                                There are thousands of places you can visit on your next vacation. In this post
+                                we'll show you the top destinations to consider for your next adventure...
+                                <a href="#" class="continue-reading">Continue Reading »</a>
+                            </p>
                         </div>
                     </article>
                 </section>
 
-                <section class="featured-grid" id="featured-grid" aria-label="Noticias destacadas">
-                    <article class="featured-card" id="card-featured-1">
-                        <a href="#">
-                            <div class="featured-card-img">
-                                <img src="img/imagen1.jpg" alt="Cámaras encontradas escondidas en la casa del caso Junieysis" loading="lazy">
-                            </div>
-                            <h2 class="featured-card-title">Fotos muestran las cámaras que sospechoso de matar a Junieysis habría escondido hasta en el baño de la casa para espiarla</h2>
-                            <p class="featured-card-excerpt">La investigación señala que el sospechoso también tenía varios celulares escondidos que usaba para grabar las conversaciones de Junieysis</p>
-                            <p class="featured-card-meta">Por Adrián Galeano Calvo · 15 de abril 2026, 06:49 p. m.</p>
-                        </a>
-                    </article>
+                <section class="blog-posts-grid" id="blog-posts" aria-label="Blog posts">
+                    <div class="posts-row">
 
-                    <article class="featured-card" id="card-featured-2">
-                        <a href="#">
-                            <div class="featured-card-img">
-                                <img src="img/imagen1.jpg" alt="Periodista de Telenoticias habla de su lucha personal" loading="lazy">
-                            </div>
-                            <h2 class="featured-card-title">La lucha que libra periodista de Telenoticias y de la que aún no se atreve a hablar públicamente</h2>
-                            <p class="featured-card-excerpt">"A veces me he sentido tentada a hablar sobre ese proceso pero uno tiene que ser cauteloso", mencionó la reportera de canal 7</p>
-                            <p class="featured-card-meta">Por Manuel Herrera · 15 de abril 2026, 05:11 p. m.</p>
-                        </a>
-                    </article>
-                </section>
+                        <article class="post-card" id="post-card-1">
+                            <a href="#">
+                                <div class="post-card-img">
+                                    <img src="img/imagen1.jpg" alt="Friends enjoying time at the beach during sunset" loading="lazy">
+                                </div>
+                            </a>
+                            <h2 class="post-card-title">Time for the Beach and Friends</h2>
+                            <p class="post-card-excerpt">
+                                Many people live so close to amazing scenery, yet they rarely take...
+                                <a href="#" class="continue-reading">Continue Reading »</a>
+                            </p>
+                        </article>
 
-                <section class="secondary-news" id="secondary-news" aria-label="Más noticias">
-                    <article class="secondary-card" id="card-sec-1">
-                        <a href="#">
-                            <div class="secondary-card-img">
-                                <img src="img/imagen1.jpg" alt="Teletica anuncia regreso de figura a canal 7" loading="lazy">
-                            </div>
-                            <div class="secondary-card-body">
-                                <h3>Teletica anuncia el regreso a canal 7 de querida y conocida figura: va para este programa</h3>
-                            </div>
-                        </a>
-                    </article>
+                        <article class="post-card" id="post-card-2">
+                            <a href="#">
+                                <div class="post-card-img">
+                                    <img src="img/imagen1.jpg" alt="Adventurous landscape ready for new experiences" loading="lazy">
+                                </div>
+                            </a>
+                            <h2 class="post-card-title">Are you Ready for an Experience?</h2>
+                            <p class="post-card-excerpt">
+                                Check out these awesome places you'll want to visit as you set your...
+                                <a href="#" class="continue-reading">Continue Reading »</a>
+                            </p>
+                        </article>
 
-                    <article class="secondary-card" id="card-sec-2">
-                        <a href="#">
-                            <div class="secondary-card-img">
-                                <img src="img/imagen1.jpg" alt="Migrantes deportados de Estados Unidos a Costa Rica" loading="lazy">
-                            </div>
-                            <div class="secondary-card-body">
-                                <h3>Lo que se sabía que podía ocurrir con algunos de los migrantes que envió Estados Unidos a Costa Rica, acaba de suceder</h3>
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="secondary-card" id="card-sec-3">
-                        <a href="#">
-                            <div class="secondary-card-img">
-                                <img src="img/imagen1.jpg" alt="Audios del VAR por gol anulado a Cartaginés" loading="lazy">
-                            </div>
-                            <div class="secondary-card-body">
-                                <h3>¿Salió o no salió? Publican audios del VAR por gol anulado a Cartaginés y lo que se dice no le hará mucha gracia a algunos</h3>
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="secondary-card" id="card-sec-4">
-                        <a href="#">
-                            <div class="secondary-card-img">
-                                <img src="img/imagen1.jpg" alt="Kendall Waston acción contra Liberia explicación VAR" loading="lazy">
-                            </div>
-                            <div class="secondary-card-body">
-                                <h3>VAR dio explicación de por qué no fue expulsado Kendall Waston tras dura acción ante Liberia</h3>
-                            </div>
-                        </a>
-                    </article>
-                </section>
-
-                <section class="category-section" id="section-teleguia" aria-label="Sección Teleguía">
-                    <div class="section-bar">
-                        <h2 class="section-bar-title" id="title-teleguia">TELEGUÍA</h2>
                     </div>
-                    <div class="card-row-4">
-                        <article class="mini-card" id="card-tele-1">
+
+                    <div class="posts-row">
+
+                        <article class="post-card" id="post-card-3">
                             <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Kylie Jenner en Coachella desata preocupación" loading="lazy"></div>
-                                <h3>¿Algo no anda bien? Aparición de Kylie Jenner en Coachella desata preocupación</h3>
+                                <div class="post-card-img">
+                                    <img src="img/imagen1.jpg" alt="Nostalgic scene of a beautiful countryside" loading="lazy">
+                                </div>
                             </a>
+                            <h2 class="post-card-title">Take Me Back in Time</h2>
+                            <p class="post-card-excerpt">
+                                How nice would that be to go back in time
+                                and enjoy the youth... <a href="#" class="continue-reading">Continue Reading »</a>
+                            </p>
                         </article>
-                        <article class="mini-card" id="card-tele-2">
+
+                        <article class="post-card" id="post-card-4">
                             <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Hijos de Britney Spears toman decisión inesperada" loading="lazy"></div>
-                                <h3>El inesperado paso que dieron los hijos de Britney Spears para salvarla</h3>
+                                <div class="post-card-img">
+                                    <img src="img/imagen1.jpg" alt="Person training outdoors for fitness goals" loading="lazy">
+                                </div>
                             </a>
+                            <h2 class="post-card-title">Here are the Best Ways to Train</h2>
+                            <p class="post-card-excerpt">
+                                Learn about the best ways to train to get
+                                the most of your workout...
+                                <a href="#" class="continue-reading">Continue Reading »</a>
+                            </p>
                         </article>
-                        <article class="mini-card" id="card-tele-3">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Neto Rangel será papá noticias" loading="lazy"></div>
-                                <h3>Neto Rangel será papá, pero lo más curioso es cómo se enteró</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-tele-4">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Tapón preocupado por fan pide ayuda" loading="lazy"></div>
-                                <h3>Tapón está muy preocupado por uno de sus fans y pide ayuda para saber de él</h3>
-                            </a>
-                        </article>
+
                     </div>
                 </section>
 
-                <section class="category-section" id="section-farandula" aria-label="Sección Farándula">
-                    <div class="section-bar">
-                        <h2 class="section-bar-title" id="title-farandula">FARÁNDULA</h2>
-                    </div>
-                    <div class="card-row-4">
-                        <article class="mini-card" id="card-far-1">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Teletica anuncia regreso de figura a canal 7" loading="lazy"></div>
-                                <h3>Teletica anuncia el regreso a canal 7 de querida y conocida figura</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-far-2">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Periodista de Telenoticias revela su lucha personal" loading="lazy"></div>
-                                <h3>La lucha que libra periodista de Telenoticias y de la que aún no se atreve a hablar</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-far-3">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Participantes de Nace una Estrella revelan historia de amor" loading="lazy"></div>
-                                <h3>Exparticipantes de Nace una estrella revelan lo que pasó con su historia de amor</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-far-4">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="ESPN fichaje bomba de exfutbolista costarricense" loading="lazy"></div>
-                                <h3>ESPN estaría a pocas horas de anunciar fichaje bomba de reconocido exfutbolista</h3>
-                            </a>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="category-section" id="section-deportes" aria-label="Sección Deportes">
-                    <div class="section-bar">
-                        <h2 class="section-bar-title" id="title-deportes">DEPORTES</h2>
-                    </div>
-                    <div class="card-row-4">
-                        <article class="mini-card" id="card-dep-1">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Derrickson Quirós no puede volver a Guatemala Xelajú" loading="lazy"></div>
-                                <h3>El jugador tico Derrickson Quirós aclaró por qué no ha podido volver a Guatemala</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-dep-2">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Saprissa jugadores cuestionados final Copa" loading="lazy"></div>
-                                <h3>Saprissa saldrá con tres jugadores muy cuestionados por la afición para pelear la final</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-dep-3">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Mano no pitada como penal Cartaginés Herediano" loading="lazy"></div>
-                                <h3>Por este motivo no se pitó mano que reclamaron como penal en Cartaginés vs Herediano</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-dep-4">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Comisión de arbitraje jugada Cartaginés penal Herediano" loading="lazy"></div>
-                                <h3>Comisión de arbitraje sorprende con lo que dijo de jugada que Cartaginés pedía penal</h3>
-                            </a>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="category-section" id="section-sucesos" aria-label="Sección Sucesos">
-                    <div class="section-bar">
-                        <h2 class="section-bar-title" id="title-sucesos">SUCESOS</h2>
-                    </div>
-                    <div class="card-row-4">
-                        <article class="mini-card" id="card-suc-1">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Exoficial de Tránsito pidió mordida de 10 mil colones" loading="lazy"></div>
-                                <h3>Exoficial de Tránsito le pidió una mordida de ¢10 mil a camionero</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-suc-2">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Hombre detenido por tachar carros en parqueos San José" loading="lazy"></div>
-                                <h3>Detienen a hombre sospechoso de tachar al menos 17 carros en distintos parqueos</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-suc-3">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Hombre causó pánico en Ebáis de Tabarcia" loading="lazy"></div>
-                                <h3>Hombre causó pánico en Ebáis de Tabarcia: exigía atención médica</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-suc-4">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Venezolano dio nombres falsos a policías en Costa Rica" loading="lazy"></div>
-                                <h3>Venezolano dio nombres y apodos falsos a policías para evitar ser descubierto</h3>
-                            </a>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="category-section" id="section-nacional" aria-label="Sección Nacional">
-                    <div class="section-bar">
-                        <h2 class="section-bar-title" id="title-nacional">NACIONAL</h2>
-                    </div>
-                    <div class="card-row-4">
-                        <article class="mini-card" id="card-nac-1">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="CCSS no paga salario el 15 de abril bisemana" loading="lazy"></div>
-                                <h3>¿Qué pasa que la Caja no pagara este 15 de abril el salario de esta bisemana?</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-nac-2">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Cuarto caso de sarampión confirmado en Costa Rica" loading="lazy"></div>
-                                <h3>Ministerio de Salud confirma cuarto caso de sarampión en esta parte de Costa Rica</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-nac-3">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Sicóloga costarricense en Estados Unidos no reconocen título" loading="lazy"></div>
-                                <h3>Sicóloga costarricense llegó a Estados Unidos y no le reconocieron su título</h3>
-                            </a>
-                        </article>
-                        <article class="mini-card" id="card-nac-4">
-                            <a href="#">
-                                <div class="mini-card-img"><img src="img/imagen1.jpg" alt="Vecinos sin agua AyA celebra aniversario Costa Rica" loading="lazy"></div>
-                                <h3>Vecinos sufrían al no tener agua todo el día, mientras el AyA celebraba su aniversario</h3>
-                            </a>
-                        </article>
-                    </div>
-                </section>
+                <div class="load-more-wrapper" id="load-more-wrapper">
+                    <button type="button" class="btn-load-more" id="btn-load-more">LOAD MORE ARTICLES</button>
+                </div>
 
             </div>
 
-            <aside class="sidebar" id="sidebar" aria-label="Contenido lateral">
-                <div class="sidebar-section" id="sidebar-ultimas">
-                    <div class="section-bar section-bar--orange">
-                        <h2 class="section-bar-title">ÚLTIMAS NOTICIAS</h2>
-                    </div>
-                    <ul class="sidebar-list">
-                        <li class="sidebar-item" id="sidebar-item-1">
+            <aside class="sidebar" id="sidebar" aria-label="Sidebar content">
+
+                <div class="sidebar-section sidebar-newsletter" id="sidebar-newsletter">
+                    <h2 class="sidebar-section-title">Subscribe to our Newsletter</h2>
+                    <p class="newsletter-description">No Spam. Only one email per week.</p>
+                    <form action="#" method="POST" class="newsletter-form" id="newsletter-form" aria-label="Newsletter subscription form">
+                        <div class="form-group">
+                            <input type="text" id="input-first-name" name="firstName" placeholder="First Name" required autocomplete="given-name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="input-email" name="email" placeholder="Email Address" required autocomplete="email">
+                        </div>
+                        <button type="submit" class="btn-subscribe" id="btn-subscribe">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+                <div class="sidebar-section sidebar-categories" id="sidebar-categories">
+                    <h2 class="sidebar-section-title">Categories</h2>
+                    <ul class="categories-list">
+                        <li class="category-item" id="cat-lifestyle">
                             <a href="#">
-                                <h3>En solo dos meses el EDUS se convertirá en una herramienta nacional para un proceso que salvavidas</h3>
-                                <span class="sidebar-time">15 de abril 2026, 07:49 p. m.</span>
+                                <span class="category-name">Lifestyle</span>
+                                <span class="category-count">32</span>
                             </a>
                         </li>
-                        <li class="sidebar-item" id="sidebar-item-2">
+                        <li class="category-item" id="cat-health">
                             <a href="#">
-                                <h3>La NASA realiza una alarmante predicción sobre el fin del mundo</h3>
-                                <span class="sidebar-time">15 de abril 2026, 07:28 p. m.</span>
+                                <span class="category-name">Health</span>
+                                <span class="category-count">41</span>
                             </a>
                         </li>
-                        <li class="sidebar-item" id="sidebar-item-3">
+                        <li class="category-item" id="cat-gaming">
                             <a href="#">
-                                <h3>Opinión: Me equivoqué a la hora de ponerle título a una nota de Kenneth Vargas</h3>
-                                <span class="sidebar-time">15 de abril 2026, 07:21 p. m.</span>
+                                <span class="category-name">Gaming</span>
+                                <span class="category-count">27</span>
                             </a>
                         </li>
-                        <li class="sidebar-item" id="sidebar-item-4">
+                        <li class="category-item" id="cat-travel-sidebar">
                             <a href="#">
-                                <h3>Directora del FMI: "Debemos prepararnos para tiempos difíciles"</h3>
-                                <span class="sidebar-time">15 de abril 2026, 07:05 p. m.</span>
+                                <span class="category-name">Travel</span>
+                                <span class="category-count">21</span>
                             </a>
                         </li>
-                        <li class="sidebar-item" id="sidebar-item-5">
+                        <li class="category-item" id="cat-food">
                             <a href="#">
-                                <h3>"Eficiencia de la inteligencia artificial" provocó mil despidos</h3>
-                                <span class="sidebar-time">15 de abril 2026, 06:50 p. m.</span>
+                                <span class="category-name">Food</span>
+                                <span class="category-count">15</span>
+                            </a>
+                        </li>
+                        <li class="category-item" id="cat-business">
+                            <a href="#">
+                                <span class="category-name">Business</span>
+                                <span class="category-count">28</span>
                             </a>
                         </li>
                     </ul>
                 </div>
+
+                <div class="sidebar-section sidebar-recent" id="sidebar-recent">
+                    <h2 class="sidebar-section-title">Recent Posts</h2>
+                    <ul class="recent-posts-list">
+                        <li class="recent-post-item" id="recent-post-1">
+                            <a href="#">
+                                <div class="recent-post-img">
+                                    <img src="img/imagen1.jpg" alt="Top destinations to visit around the world" loading="lazy">
+                                </div>
+                                <div class="recent-post-info">
+                                    <h3 class="recent-post-title">Top Destinations to Visit in the World</h3>
+                                    <span class="recent-post-date">January 02, 2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="recent-post-item" id="recent-post-2">
+                            <a href="#">
+                                <div class="recent-post-img">
+                                    <img src="img/imagen1.jpg" alt="Future of 3D gaming experience" loading="lazy">
+                                </div>
+                                <div class="recent-post-info">
+                                    <h3 class="recent-post-title">Experience the Future of the 3d Gaming Experience</h3>
+                                    <span class="recent-post-date">January 04, 2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="recent-post-item" id="recent-post-3">
+                            <a href="#">
+                                <div class="recent-post-img">
+                                    <img src="img/imagen1.jpg" alt="Travel to the end of the world" loading="lazy">
+                                </div>
+                                <div class="recent-post-info">
+                                    <h3 class="recent-post-title">Take a Trip to The End of the World</h3>
+                                    <span class="recent-post-date">January 05, 2021</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </aside>
 
         </div>
     </main>
-
-    <footer id="site-footer">
-
-        <section class="footer-contact" id="contact-section" aria-label="Formulario de contacto">
-            <div class="container">
-                <h2 id="contact-title">Contáctenos</h2>
-                <p class="contact-description">Envíenos sus comentarios, sugerencias o consultas.</p>
-                <form action="#" method="POST" class="contact-form" id="contact-form" aria-label="Formulario de contacto">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="input-nombre">Nombre completo</label>
-                            <input type="text" id="input-nombre" name="nombre" placeholder="Ingrese su nombre" required autocomplete="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="input-email">Correo electrónico</label>
-                            <input type="email" id="input-email" name="email" placeholder="ejemplo@correo.com" required autocomplete="email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="select-seccion">Sección de interés</label>
-                        <select id="select-seccion" name="seccion" required>
-                            <option value="" disabled selected>Seleccione una sección</option>
-                            <option value="deportes">Deportes</option>
-                            <option value="farandula">Farándula</option>
-                            <option value="sucesos">Sucesos</option>
-                            <option value="nacional">Nacional</option>
-                            <option value="internacionales">Internacionales</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="textarea-mensaje">Mensaje</label>
-                        <textarea id="textarea-mensaje" name="mensaje" rows="4" placeholder="Escriba su mensaje aquí..."></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit" id="btn-submit-form">Enviar mensaje</button>
-                </form>
-            </div>
-        </section>
-
-        <section class="footer-social-bar" id="footer-social-bar">
-            <div class="container footer-social-inner">
-                <div class="social-icons" id="social-icons">
-                    <a href="#" aria-label="Página de Facebook de La Teja" id="social-facebook" class="social-icon social-icon--facebook">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                    </a>
-                    <a href="#" aria-label="Cuenta X (Twitter) de La Teja" id="social-twitter" class="social-icon social-icon--x">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                    </a>
-                    <a href="#" aria-label="Feed RSS de La Teja" id="social-rss" class="social-icon social-icon--rss">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
-                    </a>
-                </div>
-                <p class="copyright">&copy; 2026 Todos los derechos reservados, cualquier uso requiere autorización expresa y por escrito de Grupo Nación GN S.A.</p>
-            </div>
-        </section>
-
-        <section class="footer-links" id="footer-links" aria-label="Enlaces del pie de página">
-            <div class="container">
-                <div class="footer-columns">
-                    <div class="footer-col" id="footer-col-nosotros">
-                        <h3>Sobre nosotros</h3>
-                        <ul>
-                            <li><a href="#">Grupo Nación</a></li>
-                            <li><a href="#">La Teja</a></li>
-                            <li><a href="#">El Financiero</a></li>
-                            <li><a href="#">Revista Perfil</a></li>
-                            <li><a href="#">Sabores</a></li>
-                            <li><a href="#">Aplicaciones</a></li>
-                            <li><a href="#">Boletines</a></li>
-                            <li><a href="#">Versión Impresa</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col" id="footer-col-negocios">
-                        <h3>Negocios</h3>
-                        <ul>
-                            <li><a href="#">Todo Busco</a></li>
-                            <li><a href="#">Parque Viva</a></li>
-                            <li><a href="#">Paute con nosotros</a></li>
-                            <li><a href="#">Printea</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col" id="footer-col-legal">
-                        <h3>Términos y condiciones</h3>
-                        <ul>
-                            <li><a href="#">Políticas de privacidad</a></li>
-                            <li><a href="#">Condiciones de uso</a></li>
-                            <li><a href="#">Estados financieros</a></li>
-                            <li><a href="#">Reglamentos</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col" id="footer-col-cliente">
-                        <h3>Servicio al cliente</h3>
-                        <ul>
-                            <li><a href="#">Contáctenos</a></li>
-                            <li><a href="#">Centro de ayuda</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="footer-bottom" id="footer-bottom">
-            <div class="container footer-bottom-inner">
-                <img src="img/logo-web.svg" alt="Logo de La Teja" class="footer-logo" id="footer-logo">
-                <p class="gda-text">Miembro del Grupo de Diarios América <strong>(GDA)</strong></p>
-            </div>
-        </section>
-    </footer>
 
 </body>
 </html>
