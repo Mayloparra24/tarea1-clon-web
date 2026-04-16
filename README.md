@@ -32,12 +32,11 @@ Clon de la sección principal del sitio de noticias **La Teja** (Costa Rica), de
 ### Screenshot del original
 
 ![Screenshot del sitio original](img/screenshot-original.png)
-<!-- Reemplazar la ruta de arriba con la captura del sitio original (lateja.cr) -->
+- Está es la imagen de la pagina original
 
 ### Screenshot del resultado
-
 ![Screenshot del resultado](img/screenshot-resultado.png)
-<!-- Reemplazar la ruta de arriba con la captura del clon terminado -->
+- Se puede ver que el clon es algo similar al original en cuanto a estructura y diseño solo que se cambió un poco por error en el posicionamiento de etiquetas.
 
 ## Estructura del proyecto
 
@@ -53,6 +52,3 @@ Tarea1_Multimedios/
 └── README.md
 ```
 
-## Cómo verlo
-
-Abrir `index.html` directamente en el navegador — no requiere servidor ni instalación.
