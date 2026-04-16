@@ -41,7 +41,7 @@ Clon de la sección principal del sitio de noticias **La Teja** (Costa Rica), de
 ## Estructura del proyecto
 
 ```
-Tarea1_Multimedios/
+tarea1-clon-web/
 ├── index.html        # Página principal
 ├── index.css         # Hoja de estilos
 ├── img/
