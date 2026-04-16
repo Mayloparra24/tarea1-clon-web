@@ -27,6 +27,18 @@ Clon de un blog de viajes y lifestyle estilo revista, desarrollado como parte de
 - Diseño responsive con 2 media queries (900px, 600px)
 - Comentarios en el CSS explicando decisiones de especificidad y cómo actúa la cascada
 
+## Comparativa visual
+
+### Screenshot del original
+
+![Screenshot del sitio original](img/original.png)
+- Esta es la imagen del blog original que se tomó como referencia
+
+### Screenshot del resultado
+
+![Screenshot del resultado](img/resultado.png)
+- El clon replica la estructura y diseño del original: las 3 tarjetas hero, el artículo principal con sidebar, y el grid de posts
+
 ## Estructura del proyecto
 
 ```
@@ -43,6 +55,8 @@ tarea1-clon-web/
 │   ├── bosque-bambu.webp
 │   ├── entrenamiento.jpg
 │   ├── escocia.avif
-│   └── islandia.jpg
+│   ├── islandia.jpg
+│   ├── original.png    # Screenshot del sitio original
+│   └── resultado.png   # Screenshot del clon
 └── README.md
 ```
